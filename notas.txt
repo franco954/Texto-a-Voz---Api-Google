@@ -1,0 +1,19 @@
+
+
+Realizar pagina con voz para mis textos.
+
+
+- textArea para la escritura
+- input de enviar
+
+- opciones de idiomas: en-es-pt (poner botones con banderas)
+
+- velocidad (input range problabemente)
+
+
+
+
+
+
+
+

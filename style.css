@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contenedor */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    margin: 20px;
+}
+
+
+/* span a los element*/
+
+
+.container textarea{
+    padding: 2px;
+    box-sizing: border-box;
+    resize: none;
+    grid-column: 1 / 3;
+}
+
+.container .enviar{
+    grid-column: 1 / 3;
+}
+
+.container .velocidad{
+    grid-column: 1 / 3;
+    width: 65%;
+} 
+
+
+
+
+
+
+
+
+.container img{
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+.container img:hover{
+    filter:brightness(.8);
+}
