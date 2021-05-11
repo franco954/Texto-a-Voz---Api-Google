@@ -12,14 +12,24 @@
 <body>
 
 
+<div class="container">
 
-    <form class="container">
-        <textarea name="textarea" id="textarea" cols="30" rows="10" required></textarea>
-        <img class="en" src="recursos/espana.png" alt="España">
-        <img class="es" src="recursos/reino-unido.png" alt="ReinoUnido">
-        <input type="range" class="velocidad">
-        <input type="submit" class="enviar" value="Hablar">
+    <form class="form">
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <div class="idiomas">
+            <button class="idiomas_es"><img class="en" src="recursos/espana.png" alt="España"></button>
+            <button class="idiomas_en"><img class="es" src="recursos/reino-unido.png" alt="ReinoUnido"></button>
+        </div>
+        <div class="vel">
+            <label>Rate</label>
+            <input type="range" class="velocidad">
+        </div>
+        <div class="hablar">
+            <button type="button" class="enviar" value="Hablar">Decir</button>
+        </div>
     </form>
+
+</div>
 
 
     <script src="main.js"></script>
