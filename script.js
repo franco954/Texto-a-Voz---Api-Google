@@ -1,33 +1,38 @@
 
 
 
-document.querySelector("#Hablar").addEventListener("click",()=>{
-    decir(document.getElementById('texto').value);
-});
+
+
+
+
+
+var lenguaje;
+var velocidad;
+
+document.getElementById('hablar').addEventListener("click",()=>{
+  decir(document.getElementById("texto-decir").value)
+})
+
+
 
 
   function decir(texto) {
+    velocidad = document.querySelector("#particles-js > div > div > div > div:nth-child(3) > input").value
+    if (document.querySelector("#select-idioma").value == "1"){
+      lenguaje = "es"
+    }else{
+      lenguaje = "en"
+    }
     if (speechSynthesis.speaking) {
-        // speechSynthesis.cancel();
+        speechSynthesis.cancel();
     }
     else {
         var message = new SpeechSynthesisUtterance(texto);
-        message.lang = "de";
+        message.lang = lenguaje;
+        message.rate = velocidad;
         speechSynthesis.speak(message);
     }
 }
-
-
-speechSynthesis.getVoices();
- 
-setTimeout(function () {
-    // After 1 second, get the voices now Chrome is listening.
-    speechSynthesis.getVoices().forEach(function (voice) {
-      console.log('Hi! My name is ', voice.name);
-    });
-}, 1000);
-
-
 
 
 /* particles js*/
