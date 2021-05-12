@@ -30,6 +30,7 @@ document.getElementById('hablar').addEventListener("click",()=>{
         var message = new SpeechSynthesisUtterance(texto);
         message.lang = lenguaje;
         message.rate = velocidad;
+        message.volume = 1
         speechSynthesis.speak(message);
     }
 }
