@@ -1,0 +1,36 @@
+
+
+
+
+BreakPoints
+
+
+
+booostrap nos trae definidos los punto de quiebre que marcaran el diseño para las distintas resoluciones,
+estos BreakPoints los marcamos mediante:
+
+
+Breakpoint	            Class infix	          Dimensions
+X-Small	                    None	            <576px
+Small	                    sm	                ≥576px
+Medium	                    md	                ≥768px
+Large	                    lg	                ≥992px
+Extra large	                xl	                ≥1200px
+Extra extra large	        xxl	                ≥1400px
+
+
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 border">3</div>
+            <div class="col-12 col-sm-6 col-md-3 border">3</div>
+            <div class="col-12 col-sm-6 col-md-3 border">3</div>
+            <div class="col-12 col-sm-6 col-md-3 border">3</div>
+        </div>
+
+establecemos el Breakpoint poniendo su apellido en col y indicando el numero de espacios que ocupa esa columna.
+
+
+*siempre empezar con un col-12 porque ese se heredara si nosostros no especificamos en medidas superiores el valor.
+al aplicar mobile firts siempre se empieza con col-12
+
+no hace falta usar todos los breakpoints.

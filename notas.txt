@@ -3,6 +3,10 @@
 Realizar pagina con voz para mis textos.
 
 
+utilizar boostramp y a la mierda. de paso tener mi primer pagina con eso, dedicarme a la funcionalidad.
+
+
+
 - textArea para la escritura
 - input de enviar
 

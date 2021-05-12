@@ -1,0 +1,17 @@
+
+
+Bootstrap es una herramienta de trabajo para desarrolladores Front-end, 
+contiene un conjunto de estilos CSS y script JS para desarrollar web a la velocidad de la luz.
+
+
+
+Caracteristicas:
+
+Mobile First
+Compatibilidad con Sass
+Grid responsive
+Componentes (navbar, card, botones, etc) Revisar aquí
+Javascript plugins
+
+desventajas:   
+    muchas pags iguales -> Personalizar aunque sea minimante los componentes para que no sean parecidos a los estandar que ofrece el framework.

@@ -1,0 +1,24 @@
+
+
+
+reduce lineas de codigo del css custom hecho por boostrap
+
+instalamos
+
+npm i -g purgecss
+
+
+
+ "scripts": {
+    "build": "purgecss --css css/custom.css --content index.html -o css/reducido.css"
+  },
+
+  colacamos eso en packete json
+
+  npm run build
+
+  y ahi desde el index llamamos al css reducido no al custom
+
+  ----------------------------
+
+  con estas config, siempre que modifiquemos el custom sass debemos ejecutar el build para que esos cambios se guarden en el archivo reducido css

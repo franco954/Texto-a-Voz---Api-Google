@@ -1,0 +1,9 @@
+
+
+
+Cada componente de boostrap debe estar dentro de un div con clase container.
+
+Veo sus opciones en la doc: https://getbootstrap.com/docs/5.0/layout/containers/
+
+
+

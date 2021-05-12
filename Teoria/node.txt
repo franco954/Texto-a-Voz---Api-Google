@@ -1,0 +1,10 @@
+
+
+
+npm init -y
+
+crea el archivo package.json
+
+npm install bootstrap@next
+
+istalar bootstrap

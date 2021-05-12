@@ -1,0 +1,18 @@
+
+
+
+
+Modificamos nuestro css mediante el archivo cuestom.scss de SASS. El cual llama a las variables almacenadas en bootstrap (cuando lo uso de la manera
+instalada).
+
+importamos las variables y cambiamos su valor para modificar y personalizar el css al trabajar con bootstrap.
+
+
+// Revisar el archivo node_modules\bootstrap\scss\_variables.scss
+$primary:#733FC8;
+$success: #49556B;
+$dark: #18202D;
+$secondary: #EDF2F8;
+
+// Revisar el archivo node_modules\bootstrap\scss\_variables.scss
+$font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;

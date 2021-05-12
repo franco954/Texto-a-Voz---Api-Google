@@ -7,29 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Texto a voz</title>
+    <!-- cdn boostrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <div class="container-md">
 
-<div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-7 p-5 m-5 bg-light">
+                <div class="col-12 mt-1">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">¿Qué quieres decir?</label>
+                        <input type="text" class="form-control mt-2" id="exampleFormControlInput1"">
+                      </div>
+                </div>
+                
+                <div class="col-12 mt-4">
+                    <label for="select-idioma">Idioma</label>
+                    <select class="form-select form-select-sm" id="select-idioma" aria-label=".form-select-lg example">
+                        <option value="1">Español</option>
+                        <option value="2">Ingles</option>
+                    </select>
+                </div>
+                <div class="col-12 mt-2">
+                    <label for="customRange2" class="form-label">Velocidad</label>
+                    <input type="range" class="form-range" min="0" max="10" id="customRange2">
+                </div>
+                <div class="col-12 mt-5">
+                    <button type="button" class="btn btn-danger">Escuchar</button>
+                </div>
+            </div>
 
-    <form class="form">
-        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-        <div class="idiomas">
-            <button class="idiomas_es"><img class="en" src="recursos/espana.png" alt="España"></button>
-            <button class="idiomas_en"><img class="es" src="recursos/reino-unido.png" alt="ReinoUnido"></button>
-        </div>
-        <div class="vel">
-            <label>Rate</label>
-            <input type="range" class="velocidad">
-        </div>
-        <div class="hablar">
-            <button type="button" class="enviar" value="Hablar">Decir</button>
-        </div>
-    </form>
+        </div>    
 
-</div>
+    </div>
+
+
+
 
 
     <script src="main.js"></script>
