@@ -1,5 +1,0 @@
-
-
-CDN
-
-La manera más sencilla de comenzar con Bootstrap es utilizar el CDN. Los archivos están alojados en un servidor externo.
